@@ -1,0 +1,20 @@
+[project]
+name = "crewai_website_gen"
+version = "0.1.0"
+description = "crewai_website_gen using crewAI"
+authors = [{ name = "Sabbir A.", email = "xxmasked@masked.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0"
+]
+
+[project.scripts]
+crewai_website_gen = "crewai_website_gen.main:run"
+run_crew = "crewai_website_gen.main:run"
+train = "crewai_website_gen.main:train"
+replay = "crewai_website_gen.main:replay"
+test = "crewai_website_gen.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

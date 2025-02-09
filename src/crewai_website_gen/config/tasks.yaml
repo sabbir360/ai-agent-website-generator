@@ -1,0 +1,22 @@
+layout_design_task:
+  description: >
+    Create a detailed webpage layout with sections including header, about, services, and contact.
+    Indicate the structure and arrangement of Bootstrap components for {topic}.
+  expected_output: >
+    A wireframe-like description with detailed placeholders for content on {topic}
+  agent: designer
+
+content_generation_task:
+  description: >
+    Generate compelling text for each section (header, about, services, contact) on {topic}.
+    Ensure the content matches the topic {topic} provided and is SEO friendly.
+  expected_output: >
+    A text document containing the finalized content for all sections based on {topic}.
+  agent: content_generator
+
+html_css_task:
+  description: >
+    Develop the one-page website in HTML using Bootstrap 5. The site should include a responsive layout and properly formatted content on {topic}.
+  expected_output: >
+    A single HTML file containing the fully functional website code for {topic}.
+  agent: developer
