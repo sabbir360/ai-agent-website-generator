@@ -48,12 +48,15 @@ This example, unmodified, will run the create a `report.md` file with the output
 
 The crewai_website_gen Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-## Support
 
-For support, questions, or feedback regarding the CrewaiWebsiteGen Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
 
-Let's create wonders together with the power and simplicity of crewAI.
+### 🚀 Need Further Assistance?
+
+I bring 10+ years of experience in AWS, Cloud Architecture, and backend development with Python, Golang or Frameworks like FastAPI, Django, and Flask.
+
+📌 Expertise in: RAG, LLM, and AI Agents
+
+If you need help, consulting, or want to collaborate, feel free to reach out!
+
+📩 [Github](https://github.com/sabbir360)
+
